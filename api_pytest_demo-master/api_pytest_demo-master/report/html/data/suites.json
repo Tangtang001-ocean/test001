@@ -1,0 +1,89 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_member",
+      "children" : [ {
+        "name" : "TestMember",
+        "children" : [ {
+          "name" : "确认输入正确账号密码登录成功",
+          "uid" : "4539d028ef8291a2",
+          "parentUid" : "7c125b7a529be43b75bf6cf743ada831",
+          "status" : "failed",
+          "time" : {
+            "start" : 1610679705231,
+            "stop" : 1610679705508,
+            "duration" : 277
+          },
+          "flaky" : false,
+          "parameters" : [ "{'title': '确认输入正确账号密码登录成功', 'account': {'user': '15882345570', 'pwd': 'admin123'}, 'expected': {'code': 0, 'msg': 'OK'}}" ]
+        }, {
+          "name" : "验证手机号为空登录失败",
+          "uid" : "2b5bdc7058f5f453",
+          "parentUid" : "7c125b7a529be43b75bf6cf743ada831",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610679705665,
+            "stop" : 1610679705752,
+            "duration" : 87
+          },
+          "flaky" : false,
+          "parameters" : [ "{'title': '验证手机号为空登录失败', 'account': {'user': '', 'pwd': 'admin123'}, 'expected': {'code': 1, 'msg': '手机号码为空'}}" ]
+        }, {
+          "name" : "验证密码为空登录失败",
+          "uid" : "795042a2a1bdc7e9",
+          "parentUid" : "7c125b7a529be43b75bf6cf743ada831",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610679705760,
+            "stop" : 1610679705847,
+            "duration" : 87
+          },
+          "flaky" : false,
+          "parameters" : [ "{'title': '验证密码为空登录失败', 'account': {'user': '15882345570', 'pwd': ''}, 'expected': {'code': 1, 'msg': '密码为空'}}" ]
+        }, {
+          "name" : "验证手机号未注册登录失败",
+          "uid" : "a47bd7d62390b8e8",
+          "parentUid" : "7c125b7a529be43b75bf6cf743ada831",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610679705854,
+            "stop" : 1610679706049,
+            "duration" : 195
+          },
+          "flaky" : false,
+          "parameters" : [ "{'title': '验证手机号未注册登录失败', 'account': {'user': '15880000000', 'pwd': 'admin123'}, 'expected': {'code': 1001, 'msg': '账号信息错误'}}" ]
+        }, {
+          "name" : "验证密码错误登录失败",
+          "uid" : "4a60c481255c2ae9",
+          "parentUid" : "7c125b7a529be43b75bf6cf743ada831",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610679706059,
+            "stop" : 1610679706276,
+            "duration" : 217
+          },
+          "flaky" : false,
+          "parameters" : [ "{'title': '验证密码错误登录失败', 'account': {'user': '15882345570', 'pwd': '123123'}, 'expected': {'code': 1001, 'msg': '账号信息错误'}}" ]
+        }, {
+          "name" : "验证手机号格式错误登录失败",
+          "uid" : "c8ebd4799332ab9a",
+          "parentUid" : "7c125b7a529be43b75bf6cf743ada831",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610679706314,
+            "stop" : 1610679706401,
+            "duration" : 87
+          },
+          "flaky" : false,
+          "parameters" : [ "{'title': '验证手机号格式错误登录失败', 'account': {'user': '12345678910', 'pwd': '123123'}, 'expected': {'code': 2, 'msg': '无效的手机格式'}}" ]
+        } ],
+        "uid" : "7c125b7a529be43b75bf6cf743ada831"
+      } ],
+      "uid" : "7e7ccd8e771a1bd844ee5158ebac757b"
+    } ],
+    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+  } ]
+}

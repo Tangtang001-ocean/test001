@@ -1,0 +1,183 @@
+{
+  "uid" : "4539d028ef8291a2",
+  "name" : "确认输入正确账号密码登录成功",
+  "fullName" : "testcases.test_member.TestMember#test_login",
+  "historyId" : "a4d12c8f1ffb471b304d1975ff34a826",
+  "time" : {
+    "start" : 1610679705231,
+    "stop" : 1610679705508,
+    "duration" : 277
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcases.test_member.TestMember object at 0x000001F2CD8887B8>\ndata = {'account': {'pwd': 'admin123', 'user': '15882345570'}, 'expected': {'code': 0, 'msg': 'OK'}, 'title': '确认输入正确账号密码登录成功'}\n\n    @pytest.mark.tt\n    @allure.story('登录')\n    @allure.title('{data[title]}')\n    @pytest.mark.parametrize('data', datas['login'])\n    def test_login(self, data):\n        result = self.login_api(**data['account']).json()\n>       HA().eq(data['expected']['code'], result['code'])\n\ntestcases\\test_member.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\handle_assert.py:16: in eq\n    raise e\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nex = 0, re = 1001\n\n    @staticmethod\n    @allure.step('step:断言')\n    def eq(ex, re):\n        try:\n>           assert str(ex) == str(re)\nE           AssertionError\n\ncommon\\handle_assert.py:11: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1610679705009,
+      "stop" : 1610679705228,
+      "duration" : 219
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "task_mark",
+    "time" : {
+      "start" : 1610679705228,
+      "stop" : 1610679705229,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "case_mark",
+    "time" : {
+      "start" : 1610679705229,
+      "stop" : 1610679705229,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcases.test_member.TestMember object at 0x000001F2CD8887B8>\ndata = {'account': {'pwd': 'admin123', 'user': '15882345570'}, 'expected': {'code': 0, 'msg': 'OK'}, 'title': '确认输入正确账号密码登录成功'}\n\n    @pytest.mark.tt\n    @allure.story('登录')\n    @allure.title('{data[title]}')\n    @pytest.mark.parametrize('data', datas['login'])\n    def test_login(self, data):\n        result = self.login_api(**data['account']).json()\n>       HA().eq(data['expected']['code'], result['code'])\n\ntestcases\\test_member.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\handle_assert.py:16: in eq\n    raise e\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nex = 0, re = 1001\n\n    @staticmethod\n    @allure.step('step:断言')\n    def eq(ex, re):\n        try:\n>           assert str(ex) == str(re)\nE           AssertionError\n\ncommon\\handle_assert.py:11: AssertionError",
+    "steps" : [ {
+      "name" : "step:断言",
+      "time" : {
+        "start" : 1610679705506,
+        "stop" : 1610679705507,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\project\\api_pytest_demo-master\\api_pytest_demo-master\\common\\handle_assert.py\", line 16, in eq\n    raise e\n  File \"E:\\project\\api_pytest_demo-master\\api_pytest_demo-master\\common\\handle_assert.py\", line 11, in eq\n    assert str(ex) == str(re)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ex",
+        "value" : "0"
+      }, {
+        "name" : "re",
+        "value" : "1001"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "task_mark::0",
+    "time" : {
+      "start" : 1610679706405,
+      "stop" : 1610679706405,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "case_mark::0",
+    "time" : {
+      "start" : 1610679705657,
+      "stop" : 1610679705658,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人员"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "tag",
+    "value" : "tt"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-68E5LL7"
+  }, {
+    "name" : "thread",
+    "value" : "10500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': '确认输入正确账号密码登录成功', 'account': {'user': '15882345570', 'pwd': 'admin123'}, 'expected': {'code': 0, 'msg': 'OK'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "tt" ]
+  },
+  "source" : "4539d028ef8291a2.json",
+  "parameterValues" : [ "{'title': '确认输入正确账号密码登录成功', 'account': {'user': '15882345570', 'pwd': 'admin123'}, 'expected': {'code': 0, 'msg': 'OK'}}" ]
+}

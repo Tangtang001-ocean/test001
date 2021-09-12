@@ -1,0 +1,98 @@
+2021-01-15 08:41:55.327 | DEBUG    | conftest:task_mark:34 - ======================测试任务开始======================
+2021-01-15 08:41:56.087 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:56.203 | ERROR    | common.handle_assert:eq:14 - eq断言失败，预期结果：0，实际结果：1001
+2021-01-15 08:41:56.204 | ERROR    | common.handle_assert:eq:15 - 用例失败！
+2021-01-15 08:41:56.223 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:56.227 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:56.336 | INFO     | testcases.test_member:test_login:29 - 用例通过！
+2021-01-15 08:41:56.339 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:56.344 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:56.491 | INFO     | testcases.test_member:test_login:29 - 用例通过！
+2021-01-15 08:41:56.493 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:56.499 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:56.691 | INFO     | testcases.test_member:test_login:29 - 用例通过！
+2021-01-15 08:41:56.693 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:56.701 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:56.894 | INFO     | testcases.test_member:test_login:29 - 用例通过！
+2021-01-15 08:41:56.897 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:56.902 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:56.983 | INFO     | testcases.test_member:test_login:29 - 用例通过！
+2021-01-15 08:41:56.986 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:56.990 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:57.368 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC890D1D0>, {'mobile_phone': '$mobile_phone', 'pwd': 'admin123', 'member_type': '1', 'reg_name': '派大星'}), {}),
+响应结果：{'code': 0, 'msg': 'OK', 'data': {'id': 10195258, 'reg_name': '派大星', 'mobile_phone': '18887959523'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:57.370 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:57.374 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:57.380 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:57.768 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC890DE80>, {'mobile_phone': '$mobile_phone', 'pwd': 'admin123', 'member_type': '1'}), {}),
+响应结果：{'code': 0, 'msg': 'OK', 'data': {'id': 10195259, 'reg_name': '小柠檬', 'mobile_phone': '13549041731'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:57.769 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:57.771 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:57.776 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:58.050 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC88EC400>, {'mobile_phone': '', 'pwd': 'admin123', 'member_type': '1'}), {}),
+响应结果：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:58.051 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:58.054 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:58.059 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:58.311 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC8723E80>, {'mobile_phone': '1351514174', 'pwd': 'admin123', 'member_type': '1'}), {}),
+响应结果：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:58.313 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:58.316 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:58.323 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:58.591 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC88C1A58>, {'mobile_phone': '135151417444', 'pwd': 'admin123', 'member_type': '1'}), {}),
+响应结果：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:58.592 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:58.594 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:58.601 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:58.938 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC88CB7F0>, {'mobile_phone': '15882345570', 'pwd': 'admin123', 'member_type': '1'}), {}),
+响应结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:58.939 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:59.017 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:59.023 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:59.313 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC88CBFD0>, {'mobile_phone': '$mobile_phone', 'pwd': 'admin12', 'member_type': '1'}), {}),
+响应结果：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:59.314 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:59.317 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:59.323 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:59.612 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC8723E10>, {'mobile_phone': '$mobile_phone', 'pwd': '', 'member_type': '1'}), {}),
+响应结果：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:59.613 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:59.615 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:59.619 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:41:59.884 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC8723E48>, {'mobile_phone': '$mobile_phone', 'pwd': 'admin123', 'member_type': '1', 'reg_name': '12345678901'}), {}),
+响应结果：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:41:59.885 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:41:59.889 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:41:59.896 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:42:00.181 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC88A7828>, {'mobile_phone': '$mobile_phone', 'pwd': 'admin123', 'member_type': '2'}), {}),
+响应结果：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:42:00.182 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:42:00.185 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:42:00.190 | DEBUG    | conftest:case_mark:41 - =======================用例开始=======================
+2021-01-15 08:42:00.566 | INFO     | common.wrapper:inner:19 - 
+调用函数:case_register,
+传入参数：((<testcases.test_member.TestMember object at 0x000001ABC88EC0F0>, {'mobile_phone': '$mobile_phone', 'pwd': 'admin123', 'member_type': ''}), {}),
+响应结果：{'code': 0, 'msg': 'OK', 'data': {'id': 10195260, 'reg_name': '小柠檬', 'mobile_phone': '13117058020'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-01-15 08:42:00.567 | INFO     | testcases.test_member:test_register:38 - 用例通过！
+2021-01-15 08:42:00.570 | DEBUG    | conftest:case_mark:43 - =======================用例结束=======================
+2021-01-15 08:42:01.737 | DEBUG    | conftest:task_mark:36 - ======================测试任务结束======================

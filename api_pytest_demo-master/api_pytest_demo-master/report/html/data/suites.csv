@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcases.test_member.TestMember#test_login","87",""
+"passed","testcases.test_member.TestMember#test_login","87",""
+"passed","testcases.test_member.TestMember#test_login","87",""
+"passed","testcases.test_member.TestMember#test_login","195",""
+"failed","testcases.test_member.TestMember#test_login","277",""
+"passed","testcases.test_member.TestMember#test_login","217",""

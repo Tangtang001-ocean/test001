@@ -1,0 +1,61 @@
+[ {
+  "uid" : "a47bd7d62390b8e8",
+  "name" : "验证手机号未注册登录失败",
+  "time" : {
+    "start" : 1610679705854,
+    "stop" : 1610679706049,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a60c481255c2ae9",
+  "name" : "验证密码错误登录失败",
+  "time" : {
+    "start" : 1610679706059,
+    "stop" : 1610679706276,
+    "duration" : 217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b5bdc7058f5f453",
+  "name" : "验证手机号为空登录失败",
+  "time" : {
+    "start" : 1610679705665,
+    "stop" : 1610679705752,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "795042a2a1bdc7e9",
+  "name" : "验证密码为空登录失败",
+  "time" : {
+    "start" : 1610679705760,
+    "stop" : 1610679705847,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8ebd4799332ab9a",
+  "name" : "验证手机号格式错误登录失败",
+  "time" : {
+    "start" : 1610679706314,
+    "stop" : 1610679706401,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4539d028ef8291a2",
+  "name" : "确认输入正确账号密码登录成功",
+  "time" : {
+    "start" : 1610679705231,
+    "stop" : 1610679705508,
+    "duration" : 277
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
